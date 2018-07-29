@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main(void)
+{
+	int n;
+	printf("«Î ‰»În:\n");
+	scanf("%d",&n);
+	int i;
+	for(i=1;i<n;i++)
+	{
+		printf("   *       *   ");
+	} 	
+	printf("   *       *   \n");
+	for(i=1;i<n;i++)
+	{
+		printf("*     * *     *");
+	}
+	printf("*     * *     *\n");
+	for(i=1;i<n;i++)
+	{
+		printf("*             *");
+	}
+	printf("*             *\n");	
+	for(i=1;i<n;i++)
+	{
+		printf("  *         *  ");
+	}	
+	printf("  *         *  \n");
+	for(i=1;i<n;i++)
+	{
+		printf("     *   *     ");
+	}
+	printf("     *   *     \n");	
+	for(i=1;i<n;i++)
+	{
+		printf("       *       ");
+	}
+	printf("       *       \n");	
+}
